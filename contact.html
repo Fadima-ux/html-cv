@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My Contact Details</h1>
+    <p>23 wobble road, Toronto, Canada</p>
+    <p>ke.fadi@gmail.com</p>
+    <p>220 2002 289</p>
+    <hr>
+    <!--example of what a form might look like-->
+    <form  action="mailto:ke.fadi@yahoo.com" method="post" enctype="text/plain"><!--action=send the form to that email, method=post it, enctype to make the text plain, will understand more with javascript-->
+        <label>Your Name:</label><br>
+        <input type="text" name="yourname" value=""><br><!--what you put in name will appear in the email sent from the form-->
+        <label for="">Your email</label><br>
+        <input type="email" name="youremail"><br>
+        <label for="">Your Message</label><br>
+        <textarea name="yourmessage" rows="10" cols="30"></textarea><br><!--This is abox to put your text, styled by attributes-->
+        <input type="submit">
+    </form>
+
+
+</body>
+</html>
